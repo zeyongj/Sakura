@@ -33,6 +33,24 @@ def Tree(branch, t):
         t.backward(branch)
         t.down()
 
+# Flowers
+def Petal(m, t):
+    for i in range(m):
+        a = 200 - 400 * random.random()
+        b = 10 - 20 * random.random()
+        t.up()
+        t.forward(b)
+        t.left(90)
+        t.forward(a)
+        t.down()
+        t.color('lightcoral')  # 淡珊瑚色
+        t.circle(1)
+        t.up()
+        t.backward(a)
+        t.right(90)
+        t.backward(b)
+
+
 
 
 
