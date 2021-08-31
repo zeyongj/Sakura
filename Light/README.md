@@ -4,8 +4,14 @@
 - Personal Project: Paint a sakura tree via Python.
 - It is a light mode of drawing a sakura via Python.
 
+## Contents
+- README.md
+- sakura.py
+- Sakura_Light.jpg
+
 ## Execution
-- Run: `python sakura.py`
+- Run: `python sakura.py`.
+    - Output: `Sakura_Light.jpg`.
 
 ## Libraries
 - turple
