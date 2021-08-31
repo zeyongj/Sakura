@@ -8,19 +8,19 @@ def Tree(branch, t):
     if branch > 3:
         if 8 <= branch <= 12:
             if random.randint(0, 2) == 0:
-                t.color('snow')  # 白
+                t.color('snow')
             else:
-                t.color('lightcoral')  # 淡珊瑚色
+                t.color('lightcoral')
             t.pensize(branch / 3)
         elif branch < 8:
             if random.randint(0, 1) == 0:
                 t.color('snow')
             else:
-                t.color('lightcoral')  # 淡珊瑚色
+                t.color('lightcoral')
             t.pensize(branch / 2)
         else:
-            t.color('sienna')  # 赭(zhě)色
-            t.pensize(branch / 10)  # 6
+            t.color('sienna')
+            t.pensize(branch / 10)
         t.forward(branch)
         a = 1.5 * random.random()
         t.right(20 * a)
@@ -43,7 +43,7 @@ def Petal(m, t):
         t.left(90)
         t.forward(a)
         t.down()
-        t.color('lightcoral')  # 淡珊瑚色
+        t.color('lightcoral')
         t.circle(1)
         t.up()
         t.backward(a)
