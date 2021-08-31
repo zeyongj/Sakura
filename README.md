@@ -1,6 +1,5 @@
 # Sakura
 
-
 ## Introduction
 - Personal Project: Paint a sakura tree via Python.
 

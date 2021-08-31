@@ -8,7 +8,7 @@ def tree(n,l):
     t = cos(radians(heading()+45))/8+0.25
     pencolor(t,t,t)
     pensize(n/3)
-    forward(l)#画树枝
+    forward(l)
 
     if n > 0:
         b = random()*15+10
