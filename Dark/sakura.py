@@ -10,7 +10,7 @@ def tree(n,l):
     pensize(n/3)
     forward(l)#画树枝
 
-    if n>0:
+    if n > 0:
         b = random()*15+10
         c = random()*15+10
         d = l*(random()*0.25+0.7)
@@ -30,7 +30,7 @@ def tree(n,l):
         circle(3)
         left(90)
 
-        if(random()>0.7):
+        if(random() > 0.7):
             pu()
 
             t = heading()
@@ -56,16 +56,16 @@ def tree(n,l):
     backward(l)
 
 def main():
-    bgcolor(0.5, 0.5, 0.5)  # 背景色
-    ht()  # 隐藏turtle
-    speed(0)  # 速度 1-10渐进，0 最快
+    bgcolor(0.5, 0.5, 0.5)  # Background
+    ht()
+    speed(5)
     tracer(0, 0)
-    pu()  # 抬笔
+    pu()
     backward(100)
-    left(90)  # 左转90度
-    pu()  # 抬笔
-    backward(300)  # 后退300
-    tree(12, 100)  # 递归7层
+    left(90)
+    pu()
+    backward(300)
+    tree(12, 100)
     done()
 
 if __name__ == "__main__":
