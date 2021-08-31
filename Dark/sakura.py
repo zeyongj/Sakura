@@ -68,6 +68,8 @@ def main():
     tree(12, 100)  # 递归7层
     done()
 
+if __name__ == "__main__":
+    main()
 
 
 
