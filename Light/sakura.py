@@ -70,7 +70,8 @@ def main():
     Petal(200, t)
     w.exitonclick()
 
-
+if __name__ == "__main__":
+    main()
 
 
 
