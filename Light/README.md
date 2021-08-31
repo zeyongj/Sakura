@@ -1,7 +1,11 @@
-# Sakura
+# Sakura - Light Mode
 
 ## Introduction
 - Personal Project: Paint a sakura tree via Python.
+- It is a light mode of drawing a sakura via Python.
+
+## Execution
+- Run: `python sakura.py`
 
 ## Libraries
 - turple
