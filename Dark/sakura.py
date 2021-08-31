@@ -58,7 +58,7 @@ def tree(n,l):
 def main():
     bgcolor(0.5, 0.5, 0.5)  # Background
     ht()
-    speed(5)
+    speed(5) # Level from 10 to 0, 0 is fastest.
     tracer(0, 0)
     pu()
     backward(100)
