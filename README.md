@@ -1,11 +1,11 @@
 # Sakura
 
-<p align="center">
-  <img src="https://static.wikia.nocookie.net/dacapo/images/2/2e/Unwithering_Sakura_Tree.jpg/revision/latest/scale-to-width-down/904?cb=20200626082815" height="150" width="150"/>
-</p>
 
 ## Introduction
 - Personal Project: Paint a sakura tree via Python.
+<p align="center">
+  <img src="https://static.wikia.nocookie.net/dacapo/images/2/2e/Unwithering_Sakura_Tree.jpg/revision/latest/scale-to-width-down/904?cb=20200626082815" height="150" width="150"/>
+</p>
 
 ## Libraries
 - turple
