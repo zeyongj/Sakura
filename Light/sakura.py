@@ -50,6 +50,26 @@ def Petal(m, t):
         t.right(90)
         t.backward(b)
 
+def main():
+    # Area
+    t = T.Turtle()
+    # Size
+    w = T.Screen()
+    t.hideturtle()  # 隐藏画笔
+    t.getscreen().tracer(5, 0)
+    w.screensize(bg='wheat')  # wheat小麦
+    t.left(90)
+    t.up()
+    t.backward(150)
+    t.down()
+    t.color('sienna')
+
+    # Body
+    Tree(60, t)
+    # Flowers
+    Petal(200, t)
+    w.exitonclick()
+
 
 
 
