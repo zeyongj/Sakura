@@ -13,7 +13,7 @@
 - time
 
 ## Reference
-- https://blog.csdn.net/weixin_43943977/article/details/102691392.
+- Codes are inspired and modified from https://blog.csdn.net/weixin_43943977/article/details/102691392.
 
 ## License
 
