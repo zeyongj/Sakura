@@ -1,17 +1,17 @@
-# Sakura - Light Mode
+# Sakura - Dark Mode
 
 ## Introduction
 - Personal Project: Paint a sakura tree via Python.
-- It is a light mode of drawing a sakura via Python.
+- It is a dark mode of drawing a sakura via Python.
 
 ## Contents
 - README.md
 - sakura.py
-- Sakura_Light.jpg
+- Sakura_Dark.jpg
 
 ## Execution
 - Run: `python sakura.py`.
-    - Output: `Sakura_Light.jpg`.
+    - Output: `Sakura_Dark.jpg`.
 
 ## Libraries
 - turple
